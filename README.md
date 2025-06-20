@@ -26,7 +26,7 @@ We analyzed data from:
 ### 2. State-wise SDP Dataset
 - **Attributes:** State, Net State Domestic Product, Per Capita Income, Sector-wise Contribution, etc.
 
-### 🔑 Key Indicators Analyzed
+### Key Indicators Analyzed
 - **Economic Metrics:** Per Capita Income, Total SDP  
 - **Demographic Metrics:** Sex Ratio, Population  
 - **Derived Insights:** Correlation between economic prosperity and social indicators
