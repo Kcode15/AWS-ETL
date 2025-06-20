@@ -35,12 +35,12 @@ We analyzed data from:
 
 ## ⚙️ ETL Pipeline Overview
 
-### 📥 Extraction
+### Extraction
 
 - Raw CSV files uploaded to **Amazon S3**, acting as the central data lake.
 - **AWS Glue Crawlers** scan the S3 data and automatically create schema in **AWS Glue Data Catalog**.
 
-### 🧹 Transformation
+### Transformation
 
 A custom **AWS Glue Job** using **PySpark** performs the following transformations:
 
@@ -54,14 +54,14 @@ A custom **AWS Glue Job** using **PySpark** performs the following transformatio
 - **Output Format:** Parquet  
 - **Storage Location:** Transformed data saved back to **Amazon S3**
 
-### 🚚 Load
+### Load
 
 - Cleaned and transformed data is imported into **Amazon Redshift**.
 - Data is loaded using the Redshift `COPY` command for fast ingestion and optimized querying.
 
 ---
 
-## 🔁 ETL Flow Summary
+## ETL Flow Summary
 
 1. **Extract**
    - Upload raw India Census and SDP datasets to **Amazon S3**
